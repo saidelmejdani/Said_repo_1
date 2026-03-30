@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Multi joint model</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+&larr;&rarr;: arm1 rotation <sub id="arm1Angle">test</sub>,
+&uarr;&darr;: joint1 rotation <sub id="joint1Angle">test</sub>, 
+xz: joint2(wrist) rotation <sub id="joint2Angle">test</sub>, 
+cv: finger rotation <sub id="joint3Angle">test</sub>
+qa: finger rotation <sub id="finger1Angle">test</sub>
+ws: finger rotation <sub id="finger2Angle">test</sub>
+ed: finger rotation <sub id="finger3Angle">test</sub>
+rf: finger rotation <sub id="finger4Angle">test</sub>
+tg: finger rotation <sub id="finger5Angle">test</sub>
+
+</p>
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="MultiText.js"></script>
+  </body>
+</html>
